@@ -1,6 +1,6 @@
 -- @author: Prithviraj S Patil
 -- create.sql: for creating all default database tables --
--- Tables created: Seller, Bidder, AuctionItem, AutionItemCategory, Bid --
+-- Tables created: AuctionItem, AutionItemCategory, Seller, Bidder, Bid --
 
 -- Creates Seller table to store all user information--
 -- Primary Key: UserID --
@@ -33,7 +33,7 @@
 
 	CREATE TABLE IF NOT EXISTS AuctionItem(
 
-	ItemID VARCHAR(50) NOT NULL,
+	ItemID INT(10) NOT NULL,
 	ItemName VARCHAR(100) NOT NULL,
     CurrentHigh DECIMAL(8,2) NOT NULL,	
     BuyPrice DECIMAL(8,2) default NULL,   
@@ -61,7 +61,7 @@
 	
 	CREATE TABLE IF NOT EXISTS AuctionItemCategory(
 	
-	ItemID VARCHAR(50) NOT NULL,
+	ItemID INT(10) NOT NULL,
 	Category VARCHAR(100) NOT NULL,
 
 	CONSTRAINT CategoryKey PRIMARY KEY (ItemID, Category),
@@ -74,14 +74,13 @@
 	
 	CREATE TABLE IF NOT EXISTS Bid (
 	
-	ItemID VARCHAR(50) NOT NULL,
+	ItemID INT(10) NOT NULL,
 	BidderID VARCHAR(50) NOT NULL,
 	BidTime TIMESTAMP NOT NULL,
 	BidAmount DECIMAL(8,2) NOT NULL,
 	
 	CONSTRAINT BidKey PRIMARY KEY (ItemID, BidderID, BidTime),
-	FOREIGN KEY (ItemID) REFERENCES AuctionItem (ItemID),
-	FOREIGN KEY (BidderID) REFERENCES Bidder (UserID)
+	FOREIGN KEY (ItemID) REFERENCES AuctionItem (ItemID)
 	
 	);
 

@@ -1,0 +1,89 @@
+Running your runLoad.sh script...
+Buildfile: /tmp/p2-grading/build.xml
+
+init:
+    [mkdir] Created dir: /tmp/p2-grading/bin
+    [mkdir] Created dir: /tmp/p2-grading/lib
+
+compile:
+     [echo] project2: /tmp/p2-grading/build.xml
+    [javac] Compiling 2 source files to /tmp/p2-grading/bin
+
+run-all:
+     [java] Successfully parsed - /home/cs144/ebay-data/items-0.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-1.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-10.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-11.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-12.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-13.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-14.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-15.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-16.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-17.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-18.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-19.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-2.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-20.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-21.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-22.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-23.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-24.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-25.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-26.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-27.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-28.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-29.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-3.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-30.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-31.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-32.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-33.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-34.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-35.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-36.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-37.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-38.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-39.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-4.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-5.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-6.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-7.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-8.xml
+     [java] Successfully parsed - /home/cs144/ebay-data/items-9.xml
+     [java] 3347
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+COUNT(*)
+13422
+COUNT(DISTINCT ItemID)
+103
+COUNT(*)
+8365
+ItemID
+1046740686
+COUNT(*)
+3130
+COUNT(*)
+6717
+COUNT(*)
+150
+Running your query.sql script...
+COUNT(*)
+13422
+COUNT(DISTINCT ItemID)
+103
+COUNT(*)
+8365
+ItemID
+1046740686
+COUNT(*)
+3130
+COUNT(*)
+6717
+COUNT(*)
+150
+
+
+Finished running your queries.
+Please make sure that you got correct results from your queries

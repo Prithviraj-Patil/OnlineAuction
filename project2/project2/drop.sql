@@ -1,6 +1,6 @@
 -- @author: Prithviraj S Patil
 -- drop.sql: for dropping all default database tables --
--- Tables dropped: AutionItemCategory, Bid, AuctionItem, Seller, Bidder --
+-- Tables dropped: AuctionItem, AutionItemCategory, Seller, Bidder, Bid --
 
 -- Dropping AutionItemCategory --
 	DROP TABLE IF EXISTS AuctionItemCategory;
